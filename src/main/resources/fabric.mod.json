@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "i_use_arch_btw",
+  "version": "${version}",
+  "name": "I Use Arch BTW",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "LGPL-3.0",
+  "icon": "assets/i_use_arch_btw/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "xyz.Desyncd.i_use_arch_btw.client.I_use_arch_btwDataGenerator"
+    ],
+    "client": [
+      "xyz.Desyncd.i_use_arch_btw.client.I_use_arch_btwClient"
+    ],
+    "main": [
+      "xyz.Desyncd.i_use_arch_btw.I_use_arch_btw"
+    ]
+  },
+  "mixins": [
+    "i_use_arch_btw.mixins.json",
+    {
+      "config": "i_use_arch_btw.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-language-kotlin": ">=${kotlin_loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
