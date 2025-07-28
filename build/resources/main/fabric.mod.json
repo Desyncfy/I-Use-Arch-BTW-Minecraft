@@ -1,11 +1,17 @@
 {
   "schemaVersion": 1,
   "id": "i_use_arch_btw",
-  "version": "1.0-SNAPSHOT",
+  "version": "1.0",
   "name": "I Use Arch BTW",
-  "description": "",
-  "authors": [],
-  "contact": {},
+  "description": "Press 'V' to remind everyone what Linux distro you use.",
+  "authors": [
+    "Desyncfy"
+  ],
+  "contact": {
+		"homepage": "https://modrinth.com/mod/i-use-arch-btw-button",
+		"sources": "https://github.com/Dungeonfy-Programmers/SciFy",
+		"issues": "https://github.com/Dungeonfy-Programmers/SciFy/issues"
+  },
   "license": "LGPL-3.0",
   "icon": "assets/i_use_arch_btw/icon.png",
   "environment": "*",
