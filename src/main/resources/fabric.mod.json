@@ -16,9 +16,6 @@
   "icon": "assets/i_use_arch_btw/icon.png",
   "environment": "*",
   "entrypoints": {
-    "fabric-datagen": [
-      "xyz.Desyncd.i_use_arch_btw.client.I_use_arch_btwDataGenerator"
-    ],
     "client": [
       "xyz.Desyncd.i_use_arch_btw.client.I_use_arch_btwClient"
     ],
@@ -35,7 +32,6 @@
   ],
   "depends": {
     "fabricloader": ">=${loader_version}",
-    "fabric-language-kotlin": ">=${kotlin_loader_version}",
     "fabric": "*",
     "minecraft": "${minecraft_version}"
   }

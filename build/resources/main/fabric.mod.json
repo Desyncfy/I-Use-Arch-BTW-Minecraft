@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "i_use_arch_btw",
-  "version": "1.0",
+  "version": "2.0",
   "name": "I Use Arch BTW",
   "description": "Press 'V' to remind everyone what Linux distro you use.",
   "authors": [
@@ -16,9 +16,6 @@
   "icon": "assets/i_use_arch_btw/icon.png",
   "environment": "*",
   "entrypoints": {
-    "fabric-datagen": [
-      "xyz.Desyncd.i_use_arch_btw.client.I_use_arch_btwDataGenerator"
-    ],
     "client": [
       "xyz.Desyncd.i_use_arch_btw.client.I_use_arch_btwClient"
     ],
@@ -35,7 +32,6 @@
   ],
   "depends": {
     "fabricloader": ">=0.16.14",
-    "fabric-language-kotlin": ">=1.13.4+kotlin.2.2.0",
     "fabric": "*",
     "minecraft": "1.21.8"
   }
