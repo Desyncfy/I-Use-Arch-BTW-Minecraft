@@ -13,14 +13,12 @@ public class I_use_arch_btwClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        KeyBinding btwKey = KeyBindingHelper.registerKeyBinding(
-                new KeyBinding(
-                        "i use arch btw",
-                        InputUtil.Type.KEYSYM,
-                        GLFW.GLFW_KEY_V,
-                        "i use arch btw"
-                )
-        );
+        KeyBinding btwKey = KeyBindingHelper.registerKeyBinding(new KeyBinding(
+                "i use arch btw",
+                InputUtil.Type.KEYSYM,
+                GLFW.GLFW_KEY_V,
+                "i use arch btw"
+        ));
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
             while (btwKey.wasPressed()) {

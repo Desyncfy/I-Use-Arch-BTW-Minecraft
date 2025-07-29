@@ -23,13 +23,6 @@
       "xyz.Desyncd.i_use_arch_btw.I_use_arch_btw"
     ]
   },
-  "mixins": [
-    "i_use_arch_btw.mixins.json",
-    {
-      "config": "i_use_arch_btw.client.mixins.json",
-      "environment": "client"
-    }
-  ],
   "depends": {
     "fabricloader": ">=${loader_version}",
     "fabric": "*",
