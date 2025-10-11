@@ -17,7 +17,7 @@ public class I_use_arch_btwClient implements ClientModInitializer {
                 "i use arch btw",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_V,
-                "i use arch btw"
+                KeyBinding.Category.MISC
         ));
 
         ClientTickEvents.END_CLIENT_TICK.register(client -> {
